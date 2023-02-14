@@ -36,7 +36,7 @@ public class SalesApp {
         Optional<TelsaSales> minSales = carData.stream()
                 .min(Comparator.comparing(TelsaSales::getSales));
         System.out.println("The most profitable month for " + modelType + " was: " + maxSales.orElse(new TelsaSales("Jan-70", "0")).getDate());
-        System.out.println("The most profitable month for " + modelType + " was: " + minSales.orElse(new TelsaSales("Jan-70", "0")).getDate());
+        System.out.println("The least profitable month for " + modelType + " was: " + minSales.orElse(new TelsaSales("Jan-70", "0")).getDate());
         System.out.println();
     }
 }
