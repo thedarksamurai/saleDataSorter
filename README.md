@@ -1,2 +1,2 @@
-# skyeAssignment6
-Assiggnment 6 for CC (Coders Campus)
+Sales Data Soter
+a sales data sorter using java, I will be a python version soon
